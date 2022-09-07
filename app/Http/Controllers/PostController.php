@@ -10,4 +10,9 @@ use Illuminate\Routing\Controller as BaseController;
 class PostController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    public function method1()
+    {
+        return '';
+    }
 }
